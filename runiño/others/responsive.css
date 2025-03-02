@@ -1,0 +1,30 @@
+@media (max-width: 990px) {
+
+nav{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.home{
+margin: 5px;
+padding: 20px 10px;
+    height: auto;
+}
+
+  .project{
+  margin: 5px;
+  padding: 20px 10px;
+      height: auto;
+  }
+  
+  .contact{
+  padding: 20px 0;
+      height: auto;
+  }
+  
+  .skill{
+      height: auto;
+      padding: 20px 0;
+  }
+  
+}

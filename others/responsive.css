@@ -25,8 +25,6 @@ padding: 20px 10px;
   .skill{
       height: auto;
       padding: 20px 0;
-  }.skill img{
-      width: min(75px, 15vw);
   }
   
 }

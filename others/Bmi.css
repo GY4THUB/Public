@@ -1,7 +1,7 @@
 body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: url('themebg1.jpg') no-repeat;
+            background: url('bmii.jpg') no-repeat;
             background-size: cover;
             background-position: center center;
             height: 100vh;
@@ -24,8 +24,8 @@ body {
 
         h1 {
             margin-bottom: 20px;
-            color: lightgreen;
-            text-shadow: 0px 0px 3px lightgreen;
+            color: red;
+            text-shadow: 0px 0px 5px red;
         }
 
         label {
@@ -38,8 +38,8 @@ body {
             width: 100%;
             padding: 8px;
             margin: 8px 0;
-            border: 2px solid white;
-            box-shadow:inset 0px 0px 5px white;
+            border: 2px solid lightgray;
+            box-shadow:inset 0px 0px 5px lightgray;
             border-radius: 5px;
             background: none;
             color: white;
@@ -51,10 +51,11 @@ body {
             font-size: 16px;
             cursor: pointer;
             border: none;
-            background: #007BFF;
+            background: red;
             color: white;
             border-radius: 5px;
             transition: 0.3s;
+            font-weight: bold;
         }
 
         button:hover {

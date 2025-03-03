@@ -3,7 +3,7 @@ function project1() {
 }
 
 function project2() {
-    window.location.href = "others/drumkit.html";
+    window.location.href = "others/drumKit.html";
 }
 
 function project3() {

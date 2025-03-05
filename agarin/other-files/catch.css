@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url('bg4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gameContainer {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    border: 2px solid #252525;
+    overflow: hidden;
+    background: url('bgCatch.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 #252525;
+}
+
+.basket {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.fallingObject {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px wheat;
+}
+
+/* Mobile Controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    background-color: #252525;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 aliceblue;
+}
+
+.btn:active {
+    background-color: darkgray;
+}
+
+.head{
+    color: aliceblue;
+    text-shadow: 0 3px 0 #252525;
+    margin: 0;
+    padding: 0;
+}
+
+.p{
+    margin: 5px;
+    padding: 0;
+    color: whitesmoke;
+    text-shadow: 0 1px 0 #252525;
+}
+
+h2{
+    margin: 0;
+    color: royalblue;
+    text-shadow: 0 0 2px royalblue, 0 3px 0 #252525;
+}
+h2 span{
+    color: lime;
+    
+}
+
+@media(min-width: 769px){
+    
+    .controls{
+        display: none;
+    }
+    
+}

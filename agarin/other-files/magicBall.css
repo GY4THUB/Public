@@ -1,0 +1,71 @@
+html{
+    user-select: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background: url('bg3.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}:focus{
+    outline: none;
+}
+
+.result{
+    width: min(400px, 85vw);
+    height: min(400px, 85vw);
+    border-radius: 50%;
+    background: aliceblue;
+    box-shadow: 0 3px 0 #252525;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: 2px solid #252525;
+    transition: 1s;
+}
+.result.color{
+    background: red;
+    color: aliceblue;
+    animation: shake 1s linear forwards;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }5%{
+        transform: translateX(-4px);
+    }20%{
+        transform: translateX(4px);
+    }35%{
+        transform: translateX(0);
+    }
+}
+
+.input input{
+    border: 2px solid #252525;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 #252525;
+}
+.input input::placeholder{
+    color: gray;
+}
+.input button{
+    padding: 5px;
+    font-weight: bold;
+    background: royalblue;
+    color: aliceblue;
+    border-radius: 50px;
+    box-shadow: 0 2px 0 #252525;
+    border: 2px solid #252525;
+    transition: .25s;
+}
+.input button:hover{
+    scale: .90;
+}

@@ -1,0 +1,48 @@
+@media(max-width: 721px){
+    
+    nav{
+        padding: 0;
+    }
+    
+    .home{
+        height: auto;
+        flex-direction: column;
+    }
+    .home .p{
+        margin-top: 15px;
+    }
+    
+    #about label{
+        font-size: 1rem;
+    }
+    #project label{
+        font-size: 1rem;
+    }
+    #contact label{
+        font-size: 1rem;
+    }
+    #skill label{
+        font-size: 1rem;
+    }
+    
+    .about{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .contact{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .skill{
+    height: auto;
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+    .skill img{
+        margin-bottom: 10px;
+    }
+    
+    
+}
